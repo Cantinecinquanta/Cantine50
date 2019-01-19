@@ -1,0 +1,88 @@
+body{  
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo{
+  text-align: center;
+  position: absolute;
+  top: 20px;
+  bottom: auto;
+  left: 20px;
+}
+
+/* This (btn.) is about the button (contatti)*/
+.btn {
+  position: absolute;
+  top: 18px;
+  right: 25px;
+  font-size: 18px;
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn:hover {background: rgba(255,215,0,0.5)}
+
+.contatti {color: white;}
+
+/* This (btn2.) is about the button (I nostri vini)*/
+.btn2 {
+  position: absolute;
+  top: 18px;
+  right: 130px;
+  font-size: 18px;
+  border: none;
+  background-color: inherit;
+  padding: 14px 35px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn2:hover {background: rgba(255,215,0,0.5);}
+
+.inostrivini {color: white;}
+
+
+header{
+  text-align: center;
+  position: absolute;
+  top: 200px;
+  bottom: auto;
+  right: 20px;
+  left: 20px;
+  font-size: 60px;
+  font-family: Calibri;
+  color: rgb(255,215,0);
+}
+
+
+
+
+/* All above is about the central text */
+.typewriter {
+  font-family: Times New Roman; /* Web-safe typewriter-like font */
+  font-size: 12px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .5em; /* Adjust as needed */
+  animation: typing 8s steps(200, end), blinking-cursor .10s step-end infinite;
+  text-align: center;
+  color: white;
+  padding-top: 300px;
+}
+h1 {
+  padding-top: 20px
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0% }
+  to { width: 100% }
+}
+
