@@ -6,7 +6,7 @@ body, html {
   background-color: black;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-5, .bgimg-6 {
   position: relative;
   opacity: 1;
   background-attachment: fixed;
@@ -30,11 +30,6 @@ body, html {
   min-height: 500px;
 }
 
-.bgimg-4 {
-  background-image: url("C5020.jpg");
-  min-height: 600px;
-}
-
 .bgimg-5 {
   background-image: url("C5020.jpg");
   min-height: 500px;
@@ -42,7 +37,7 @@ body, html {
 
 .bgimg-6 {
   background-image: url("C5016.jpg");
-  min-height: 500px;
+  min-height: 700px;
 }
 
 .caption {
